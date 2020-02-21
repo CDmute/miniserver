@@ -1,0 +1,9 @@
+version: "3.5"
+services:
+  miniserver:
+    image: mutegg/miniserver:latest
+    container_name: miniserver
+    privileged: true
+    ports:
+      - "5000:5000"
+
