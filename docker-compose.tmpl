@@ -1,0 +1,9 @@
+version: "3.5"
+services:
+  miniserver:
+    image: {{ .Image }}
+    container_name: miniserver
+    privileged: true
+    ports:
+      - "5000:5000"
+
